@@ -123,7 +123,7 @@ fi
 #==================== Clone Rice Repo ======================#
 step "Cloning rice files"
 
-GIT_REPO="https://github.com/neferine/random-ideas.git"
+GIT_REPO="https://github.com/neferine/.dotfiles.git"
 DEST="$HOME/.rice"
 
 if [ ! -d "$DEST" ]; then
